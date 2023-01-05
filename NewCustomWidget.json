@@ -35,6 +35,7 @@
 	},
 	"events": {
 		"onClick": {
+			Application.showMessage(ApplicationMessageType.Success,"Hello");
 			"description": "Called when the user clicks the button."
 		}
 	}
