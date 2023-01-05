@@ -21,8 +21,9 @@
         }
 
         fireChange() {
-            console.log("OnClick Triggered");     
+            //console.log("OnClick Triggered");     
             //document.write = "Suman";   
+            onclick = "Suman";
            
         }        
         
