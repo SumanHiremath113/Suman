@@ -21,7 +21,7 @@
         }
 
         fireChange() {
-            //console.log("OnClick Triggered");     
+            console.log("OnClick Triggered");     
             //document.write = "Suman";   
             document.getElementById("myBtn").innerHTML = "Suman";
             //onclick = "Suman";
