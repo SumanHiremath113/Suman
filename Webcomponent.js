@@ -1,8 +1,8 @@
 (function () {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = 
-    `<button type="button" id="myBtn">Helper Button</button>` ;   
-   
+    `<button type="button" id="myBtn">Helper Button</button>` ;  
+     
     class PerformanceHelp extends HTMLElement {
         constructor() {
             super();
@@ -22,6 +22,7 @@
 
         fireChange() {
             console.log("OnClick Triggered");     
+            document.getElementById().innerHTML = "Suman";   
            
         }        
         
