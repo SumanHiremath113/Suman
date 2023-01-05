@@ -23,7 +23,8 @@
         fireChange() {
             //console.log("OnClick Triggered");     
             //document.write = "Suman";   
-            onclick = "Suman";
+            document.getElementById("myBtn").innerHTML = "Suman";
+            //onclick = "Suman";
            
         }        
         
