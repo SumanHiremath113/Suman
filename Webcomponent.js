@@ -20,7 +20,7 @@
             });           
         }
 
-        fireChanged() {
+        fireChange() {
             console.log("OnClick Triggered");     
            
         }        
